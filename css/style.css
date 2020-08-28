@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.bg {
+    background-image: url('../svg/xidmet.svg');
+    background-repeat: no-repeat;
+    height: 624px;
+    margin-left: -15px;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    max-width: 60px;
+    left: 45%;
+    max-height: 20px;
+    bottom: 80px;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.list{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.item{
+    display: flex;
+   
+}
+
+.item_text{
+    margin: 4px 30px 10px 0px;
+    text-align: justify;
+
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey
+}
+
+.number i{
+    font-size: 22px;
+}
+
+
+strong{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.text{
+   font-size: 0.6em; 
+   margin: 0;
+}
+
+.text-algin{
+    align-items: center;
+    line-height: 1;
+}

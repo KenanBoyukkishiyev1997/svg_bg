@@ -65,7 +65,11 @@ page[size="A4"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: grey
+    color: grey;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .number i{
